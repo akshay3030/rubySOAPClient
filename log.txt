@@ -1,0 +1,1569 @@
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T11:55:26-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain></n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId></n1:AWSAccessKeyId>
+      <n1:SubscriptionId></n1:SubscriptionId>
+      <n1:AssociateTag></n1:AssociateTag>
+      <n1:XMLEscaping></n1:XMLEscaping>
+      <n1:Validate></n1:Validate>
+      <n1:Shared>
+        <n1:Actor></n1:Actor>
+        <n1:Artist></n1:Artist>
+        <n1:Availability></n1:Availability>
+        <n1:Author></n1:Author>
+        <n1:Brand></n1:Brand>
+        <n1:BrowseNode></n1:BrowseNode>
+        <n1:City></n1:City>
+        <n1:Composer></n1:Composer>
+        <n1:Condition></n1:Condition>
+        <n1:Conductor></n1:Conductor>
+        <n1:Count></n1:Count>
+        <n1:Cuisine></n1:Cuisine>
+        <n1:DeliveryMethod></n1:DeliveryMethod>
+        <n1:Director></n1:Director>
+        <n1:FutureLaunchDate></n1:FutureLaunchDate>
+        <n1:ISPUPostalCode></n1:ISPUPostalCode>
+        <n1:ItemPage></n1:ItemPage>
+        <n1:Keywords></n1:Keywords>
+        <n1:Manufacturer></n1:Manufacturer>
+        <n1:MaximumPrice></n1:MaximumPrice>
+        <n1:MerchantId></n1:MerchantId>
+        <n1:MinimumPrice></n1:MinimumPrice>
+        <n1:MusicLabel></n1:MusicLabel>
+        <n1:Neighborhood></n1:Neighborhood>
+        <n1:Orchestra></n1:Orchestra>
+        <n1:PostalCode></n1:PostalCode>
+        <n1:Power></n1:Power>
+        <n1:Publisher></n1:Publisher>
+        <n1:RelatedItemPage></n1:RelatedItemPage>
+        <n1:ReviewSort></n1:ReviewSort>
+        <n1:SearchIndex></n1:SearchIndex>
+        <n1:Sort></n1:Sort>
+        <n1:State></n1:State>
+        <n1:TagPage></n1:TagPage>
+        <n1:TagsPerPage></n1:TagsPerPage>
+        <n1:TagSort></n1:TagSort>
+        <n1:TextStream></n1:TextStream>
+        <n1:Title></n1:Title>
+        <n1:ReleaseDate></n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor></n1:Actor>
+        <n1:Artist></n1:Artist>
+        <n1:Availability></n1:Availability>
+        <n1:Author></n1:Author>
+        <n1:Brand></n1:Brand>
+        <n1:BrowseNode></n1:BrowseNode>
+        <n1:City></n1:City>
+        <n1:Composer></n1:Composer>
+        <n1:Condition></n1:Condition>
+        <n1:Conductor></n1:Conductor>
+        <n1:Count></n1:Count>
+        <n1:Cuisine></n1:Cuisine>
+        <n1:DeliveryMethod></n1:DeliveryMethod>
+        <n1:Director></n1:Director>
+        <n1:FutureLaunchDate></n1:FutureLaunchDate>
+        <n1:ISPUPostalCode></n1:ISPUPostalCode>
+        <n1:ItemPage></n1:ItemPage>
+        <n1:Keywords></n1:Keywords>
+        <n1:Manufacturer></n1:Manufacturer>
+        <n1:MaximumPrice></n1:MaximumPrice>
+        <n1:MerchantId></n1:MerchantId>
+        <n1:MinimumPrice></n1:MinimumPrice>
+        <n1:MusicLabel></n1:MusicLabel>
+        <n1:Neighborhood></n1:Neighborhood>
+        <n1:Orchestra></n1:Orchestra>
+        <n1:PostalCode></n1:PostalCode>
+        <n1:Power></n1:Power>
+        <n1:Publisher></n1:Publisher>
+        <n1:RelatedItemPage></n1:RelatedItemPage>
+        <n1:ReviewSort></n1:ReviewSort>
+        <n1:SearchIndex></n1:SearchIndex>
+        <n1:Sort></n1:Sort>
+        <n1:State></n1:State>
+        <n1:TagPage></n1:TagPage>
+        <n1:TagsPerPage></n1:TagsPerPage>
+        <n1:TagSort></n1:TagSort>
+        <n1:TextStream></n1:TextStream>
+        <n1:Title></n1:Title>
+        <n1:ReleaseDate></n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">5f0de729-22fb-4c50-a3be-8a015b0c3b09</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for cartGet method for AWSECommerceService - 2010-07-16T11:55:43-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:CartGet xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain></n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId></n1:AWSAccessKeyId>
+      <n1:SubscriptionId></n1:SubscriptionId>
+      <n1:AssociateTag></n1:AssociateTag>
+      <n1:Validate></n1:Validate>
+      <n1:XMLEscaping></n1:XMLEscaping>
+      <n1:Shared>
+        <n1:CartId></n1:CartId>
+        <n1:HMAC></n1:HMAC>
+        <n1:MergeCart></n1:MergeCart>
+      </n1:Shared>
+      <n1:Request>
+        <n1:CartId></n1:CartId>
+        <n1:HMAC></n1:HMAC>
+        <n1:MergeCart></n1:MergeCart>
+      </n1:Request>
+    </n1:CartGet>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">61b89376-e49c-47e4-90a7-958a20f84088</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T11:58:03-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>2</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>3</n1:SubscriptionId>
+      <n1:AssociateTag>4</n1:AssociateTag>
+      <n1:XMLEscaping>5</n1:XMLEscaping>
+      <n1:Validate>6</n1:Validate>
+      <n1:Shared>
+        <n1:Actor>8</n1:Actor>
+        <n1:Artist>9</n1:Artist>
+        <n1:Availability>10</n1:Availability>
+        <n1:AudienceRating>11</n1:AudienceRating>
+        <n1:Author>12</n1:Author>
+        <n1:Brand>13</n1:Brand>
+        <n1:BrowseNode>14
+          <n1:TopItemSet>14
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>14
+              <n1:Author>14</n1:Author>
+              <n1:Artist>14</n1:Artist>
+              <n1:Actor>14</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>15</n1:City>
+        <n1:Composer>16</n1:Composer>
+        <n1:Condition>17</n1:Condition>
+        <n1:Conductor>18</n1:Conductor>
+        <n1:Count>19</n1:Count>
+        <n1:Cuisine>20</n1:Cuisine>
+        <n1:DeliveryMethod>21</n1:DeliveryMethod>
+        <n1:Director>22</n1:Director>
+        <n1:FutureLaunchDate>23</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>24</n1:ISPUPostalCode>
+        <n1:ItemPage>25</n1:ItemPage>
+        <n1:Keywords>26</n1:Keywords>
+        <n1:Manufacturer>27</n1:Manufacturer>
+        <n1:MaximumPrice>28</n1:MaximumPrice>
+        <n1:MerchantId>29</n1:MerchantId>
+        <n1:MinimumPrice>30</n1:MinimumPrice>
+        <n1:MusicLabel>31</n1:MusicLabel>
+        <n1:Neighborhood>32</n1:Neighborhood>
+        <n1:Orchestra>33</n1:Orchestra>
+        <n1:PostalCode>34</n1:PostalCode>
+        <n1:Power>35</n1:Power>
+        <n1:Publisher>36</n1:Publisher>
+        <n1:RelatedItemPage>37</n1:RelatedItemPage>
+        <n1:RelationshipType>38</n1:RelationshipType>
+        <n1:ResponseGroup>39</n1:ResponseGroup>
+        <n1:ReviewSort>40</n1:ReviewSort>
+        <n1:SearchIndex>41</n1:SearchIndex>
+        <n1:Sort>42</n1:Sort>
+        <n1:State>43</n1:State>
+        <n1:TagPage>44</n1:TagPage>
+        <n1:TagsPerPage>45</n1:TagsPerPage>
+        <n1:TagSort>46</n1:TagSort>
+        <n1:TextStream>47</n1:TextStream>
+        <n1:Title>48</n1:Title>
+        <n1:ReleaseDate>49</n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor>52</n1:Actor>
+        <n1:Artist>53</n1:Artist>
+        <n1:Availability>54</n1:Availability>
+        <n1:AudienceRating>55</n1:AudienceRating>
+        <n1:Author>56</n1:Author>
+        <n1:Brand>57</n1:Brand>
+        <n1:BrowseNode>58
+          <n1:TopItemSet>58
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>58
+              <n1:Author>58</n1:Author>
+              <n1:Artist>58</n1:Artist>
+              <n1:Actor>58</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>59</n1:City>
+        <n1:Composer>60</n1:Composer>
+        <n1:Condition>61</n1:Condition>
+        <n1:Conductor>62</n1:Conductor>
+        <n1:Count>63</n1:Count>
+        <n1:Cuisine>64</n1:Cuisine>
+        <n1:DeliveryMethod>65</n1:DeliveryMethod>
+        <n1:Director>66</n1:Director>
+        <n1:FutureLaunchDate>67</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>68</n1:ISPUPostalCode>
+        <n1:ItemPage>69</n1:ItemPage>
+        <n1:Keywords>70</n1:Keywords>
+        <n1:Manufacturer>71</n1:Manufacturer>
+        <n1:MaximumPrice>72</n1:MaximumPrice>
+        <n1:MerchantId>73</n1:MerchantId>
+        <n1:MinimumPrice>74</n1:MinimumPrice>
+        <n1:MusicLabel>75</n1:MusicLabel>
+        <n1:Neighborhood>76</n1:Neighborhood>
+        <n1:Orchestra>77</n1:Orchestra>
+        <n1:PostalCode>78</n1:PostalCode>
+        <n1:Power>79</n1:Power>
+        <n1:Publisher>80</n1:Publisher>
+        <n1:RelatedItemPage>81</n1:RelatedItemPage>
+        <n1:RelationshipType>82</n1:RelationshipType>
+        <n1:ResponseGroup>83</n1:ResponseGroup>
+        <n1:ReviewSort>84</n1:ReviewSort>
+        <n1:SearchIndex>85</n1:SearchIndex>
+        <n1:Sort>86</n1:Sort>
+        <n1:State>87</n1:State>
+        <n1:TagPage>88</n1:TagPage>
+        <n1:TagsPerPage>89</n1:TagsPerPage>
+        <n1:TagSort>90</n1:TagSort>
+        <n1:TextStream>91</n1:TextStream>
+        <n1:Title>92</n1:Title>
+        <n1:ReleaseDate>93</n1:ReleaseDate>
+      </n1:Request>
+      <n1:Request>
+        <n1:Actor>96</n1:Actor>
+        <n1:Artist>97</n1:Artist>
+        <n1:Availability>98</n1:Availability>
+        <n1:AudienceRating>99</n1:AudienceRating>
+        <n1:Author>100</n1:Author>
+        <n1:Brand>101</n1:Brand>
+        <n1:BrowseNode>102
+          <n1:TopItemSet>102
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>102
+              <n1:Author>102</n1:Author>
+              <n1:Artist>102</n1:Artist>
+              <n1:Actor>102</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>103</n1:City>
+        <n1:Composer>104</n1:Composer>
+        <n1:Condition>105</n1:Condition>
+        <n1:Conductor>106</n1:Conductor>
+        <n1:Count>107</n1:Count>
+        <n1:Cuisine>108</n1:Cuisine>
+        <n1:DeliveryMethod>109</n1:DeliveryMethod>
+        <n1:Director>110</n1:Director>
+        <n1:FutureLaunchDate>111</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>112</n1:ISPUPostalCode>
+        <n1:ItemPage>113</n1:ItemPage>
+        <n1:Keywords>114</n1:Keywords>
+        <n1:Manufacturer>115</n1:Manufacturer>
+        <n1:MaximumPrice>116</n1:MaximumPrice>
+        <n1:MerchantId>117</n1:MerchantId>
+        <n1:MinimumPrice>118</n1:MinimumPrice>
+        <n1:MusicLabel>119</n1:MusicLabel>
+        <n1:Neighborhood>120</n1:Neighborhood>
+        <n1:Orchestra>121</n1:Orchestra>
+        <n1:PostalCode>122</n1:PostalCode>
+        <n1:Power>123</n1:Power>
+        <n1:Publisher>124</n1:Publisher>
+        <n1:RelatedItemPage>125</n1:RelatedItemPage>
+        <n1:RelationshipType>126</n1:RelationshipType>
+        <n1:ResponseGroup>127</n1:ResponseGroup>
+        <n1:ReviewSort>128</n1:ReviewSort>
+        <n1:SearchIndex>129</n1:SearchIndex>
+        <n1:Sort>130</n1:Sort>
+        <n1:State>131</n1:State>
+        <n1:TagPage>132</n1:TagPage>
+        <n1:TagsPerPage>133</n1:TagsPerPage>
+        <n1:TagSort>134</n1:TagSort>
+        <n1:TextStream>135</n1:TextStream>
+        <n1:Title>136</n1:Title>
+        <n1:ReleaseDate>137</n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">7bae7c75-cb66-4a0b-b38c-9b971f65ca55</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T11:59:17-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>1</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>2</n1:SubscriptionId>
+      <n1:AssociateTag>2</n1:AssociateTag>
+      <n1:XMLEscaping>1</n1:XMLEscaping>
+      <n1:Validate>2</n1:Validate>
+      <n1:Shared>
+        <n1:Actor>12</n1:Actor>
+        <n1:Artist></n1:Artist>
+        <n1:Availability>2</n1:Availability>
+        <n1:AudienceRating>2</n1:AudienceRating>
+        <n1:Author>2</n1:Author>
+        <n1:Brand>2</n1:Brand>
+        <n1:BrowseNode>1
+          <n1:TopItemSet>1
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>1
+              <n1:Author>1</n1:Author>
+              <n1:Artist>1</n1:Artist>
+              <n1:Actor>1</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>1</n1:City>
+        <n1:Composer>1</n1:Composer>
+        <n1:Condition>1</n1:Condition>
+        <n1:Conductor>1</n1:Conductor>
+        <n1:Count>1</n1:Count>
+        <n1:Cuisine>1</n1:Cuisine>
+        <n1:DeliveryMethod>1</n1:DeliveryMethod>
+        <n1:Director>1</n1:Director>
+        <n1:FutureLaunchDate>1</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>1</n1:ISPUPostalCode>
+        <n1:ItemPage>1</n1:ItemPage>
+        <n1:Keywords>1</n1:Keywords>
+        <n1:Manufacturer>1</n1:Manufacturer>
+        <n1:MaximumPrice>1</n1:MaximumPrice>
+        <n1:MerchantId>1</n1:MerchantId>
+        <n1:MinimumPrice>1</n1:MinimumPrice>
+        <n1:MusicLabel>1</n1:MusicLabel>
+        <n1:Neighborhood>1</n1:Neighborhood>
+        <n1:Orchestra>1</n1:Orchestra>
+        <n1:PostalCode>1</n1:PostalCode>
+        <n1:Power>1</n1:Power>
+        <n1:Publisher>1</n1:Publisher>
+        <n1:RelatedItemPage>1</n1:RelatedItemPage>
+        <n1:RelationshipType>1</n1:RelationshipType>
+        <n1:ResponseGroup>1</n1:ResponseGroup>
+        <n1:ReviewSort>1</n1:ReviewSort>
+        <n1:SearchIndex>1</n1:SearchIndex>
+        <n1:Sort>1</n1:Sort>
+        <n1:State>1</n1:State>
+        <n1:TagPage>1</n1:TagPage>
+        <n1:TagsPerPage>1</n1:TagsPerPage>
+        <n1:TagSort>1</n1:TagSort>
+        <n1:TextStream>1</n1:TextStream>
+        <n1:Title>1</n1:Title>
+        <n1:ReleaseDate>1</n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor>1</n1:Actor>
+        <n1:Artist>1</n1:Artist>
+        <n1:Availability>1</n1:Availability>
+        <n1:AudienceRating>1</n1:AudienceRating>
+        <n1:Author>1</n1:Author>
+        <n1:Brand>1</n1:Brand>
+        <n1:BrowseNode>1
+          <n1:TopItemSet>1
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>1
+              <n1:Author>1</n1:Author>
+              <n1:Artist>1</n1:Artist>
+              <n1:Actor>1</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>1</n1:City>
+        <n1:Composer>1</n1:Composer>
+        <n1:Condition>1</n1:Condition>
+        <n1:Conductor>1</n1:Conductor>
+        <n1:Count>1</n1:Count>
+        <n1:Cuisine>1</n1:Cuisine>
+        <n1:DeliveryMethod>1</n1:DeliveryMethod>
+        <n1:Director>1</n1:Director>
+        <n1:FutureLaunchDate>1</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>1</n1:ISPUPostalCode>
+        <n1:ItemPage>1</n1:ItemPage>
+        <n1:Keywords>1</n1:Keywords>
+        <n1:Manufacturer>1</n1:Manufacturer>
+        <n1:MaximumPrice>1</n1:MaximumPrice>
+        <n1:MerchantId>1</n1:MerchantId>
+        <n1:MinimumPrice>1</n1:MinimumPrice>
+        <n1:MusicLabel>1</n1:MusicLabel>
+        <n1:Neighborhood>1</n1:Neighborhood>
+        <n1:Orchestra>1</n1:Orchestra>
+        <n1:PostalCode>1</n1:PostalCode>
+        <n1:Power>1</n1:Power>
+        <n1:Publisher>1</n1:Publisher>
+        <n1:RelatedItemPage>1</n1:RelatedItemPage>
+        <n1:RelationshipType>1</n1:RelationshipType>
+        <n1:ResponseGroup>1</n1:ResponseGroup>
+        <n1:ReviewSort>1</n1:ReviewSort>
+        <n1:SearchIndex>1</n1:SearchIndex>
+        <n1:Sort>1</n1:Sort>
+        <n1:State>1</n1:State>
+        <n1:TagPage>1</n1:TagPage>
+        <n1:TagsPerPage>1</n1:TagsPerPage>
+        <n1:TagSort>1</n1:TagSort>
+        <n1:TextStream>1</n1:TextStream>
+        <n1:Title>1</n1:Title>
+        <n1:ReleaseDate>1</n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">01502abb-5635-4700-9358-adb63697074f</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for pushOEMBallots method for BallotIngestionService - 2010-07-16T11:59:48-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushOEMBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID>1</n1:requestID>
+      <n1:ome>1</n1:ome>
+    </n1:pushOEMBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:pushOEMBallotsResponse xmlns:ns="http://impl.ballotingestion.services.voting.gov.riskmetrics.com"><ns:return xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" /></ns:pushOEMBallotsResponse></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushOEMBallots method for BallotIngestionService - 2010-07-16T11:59:56-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushOEMBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID></n1:requestID>
+      <n1:ome></n1:ome>
+    </n1:pushOEMBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:pushOEMBallotsResponse xmlns:ns="http://impl.ballotingestion.services.voting.gov.riskmetrics.com"><ns:return xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" /></ns:pushOEMBallotsResponse></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushBallots method for BallotIngestionService - 2010-07-16T12:00:05-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID>1</n1:requestID>
+      <n1:ballots xmlns:n2="http://types.api.ballotingestion.services.voting.gov.riskmetrics.com/xsd">
+        <n2:address></n2:address>
+        <n2:ballotBankCode></n2:ballotBankCode>
+        <n2:ballotId></n2:ballotId>
+        <n2:ballotInactiveFlag></n2:ballotInactiveFlag>
+        <n2:ballotNote></n2:ballotNote>
+        <n2:controlNbr></n2:controlNbr>
+        <n2:custodianAccountId></n2:custodianAccountId>
+        <n2:custodianAccountNumber></n2:custodianAccountNumber>
+        <n2:custodianId></n2:custodianId>
+        <n2:cutOffDate></n2:cutOffDate>
+        <n2:gpdCustodianAccountID></n2:gpdCustodianAccountID>
+        <n2:institutionAccountId></n2:institutionAccountId>
+        <n2:locationId></n2:locationId>
+        <n2:meetingChangedFlag></n2:meetingChangedFlag>
+        <n2:meetingID></n2:meetingID>
+        <n2:meetingVersionNbr></n2:meetingVersionNbr>
+        <n2:paperBallot></n2:paperBallot>
+        <n2:poaEffectiveDate></n2:poaEffectiveDate>
+        <n2:poaExpirationDate></n2:poaExpirationDate>
+        <n2:poaValue></n2:poaValue>
+        <n2:providerId></n2:providerId>
+        <n2:providerSecurityId></n2:providerSecurityId>
+        <n2:providerSecurityTypeCode></n2:providerSecurityTypeCode>
+        <n2:recordDate></n2:recordDate>
+        <n2:sQLTypeName></n2:sQLTypeName>
+        <n2:serialVersionUID></n2:serialVersionUID>
+        <n2:settlementLocAcctNbr></n2:settlementLocAcctNbr>
+        <n2:settlementLocation></n2:settlementLocation>
+        <n2:shareBlocking></n2:shareBlocking>
+        <n2:sharesAvailableToVote></n2:sharesAvailableToVote>
+        <n2:sharesOnLoan></n2:sharesOnLoan>
+        <n2:voteDeadlineDate></n2:voteDeadlineDate>
+      </n1:ballots>
+    </n1:pushBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>InvocationTargetException : java.lang.reflect.InvocationTargetException</faultstring><detail /></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushBallots method for BallotIngestionService - 2010-07-16T12:00:20-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID></n1:requestID>
+      <n1:ballots xmlns:n2="http://types.api.ballotingestion.services.voting.gov.riskmetrics.com/xsd">
+        <n2:address></n2:address>
+        <n2:ballotBankCode></n2:ballotBankCode>
+        <n2:ballotId></n2:ballotId>
+        <n2:ballotInactiveFlag></n2:ballotInactiveFlag>
+        <n2:ballotNote></n2:ballotNote>
+        <n2:controlNbr></n2:controlNbr>
+        <n2:custodianAccountId></n2:custodianAccountId>
+        <n2:custodianAccountNumber></n2:custodianAccountNumber>
+        <n2:custodianId></n2:custodianId>
+        <n2:cutOffDate></n2:cutOffDate>
+        <n2:gpdCustodianAccountID></n2:gpdCustodianAccountID>
+        <n2:institutionAccountId></n2:institutionAccountId>
+        <n2:locationId></n2:locationId>
+        <n2:meetingChangedFlag></n2:meetingChangedFlag>
+        <n2:meetingID></n2:meetingID>
+        <n2:meetingVersionNbr></n2:meetingVersionNbr>
+        <n2:paperBallot></n2:paperBallot>
+        <n2:poaEffectiveDate></n2:poaEffectiveDate>
+        <n2:poaExpirationDate></n2:poaExpirationDate>
+        <n2:poaValue></n2:poaValue>
+        <n2:providerId></n2:providerId>
+        <n2:providerSecurityId></n2:providerSecurityId>
+        <n2:providerSecurityTypeCode></n2:providerSecurityTypeCode>
+        <n2:recordDate></n2:recordDate>
+        <n2:sQLTypeName></n2:sQLTypeName>
+        <n2:serialVersionUID></n2:serialVersionUID>
+        <n2:settlementLocAcctNbr></n2:settlementLocAcctNbr>
+        <n2:settlementLocation></n2:settlementLocation>
+        <n2:shareBlocking></n2:shareBlocking>
+        <n2:sharesAvailableToVote></n2:sharesAvailableToVote>
+        <n2:sharesOnLoan></n2:sharesOnLoan>
+        <n2:voteDeadlineDate></n2:voteDeadlineDate>
+      </n1:ballots>
+    </n1:pushBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>InvocationTargetException : java.lang.reflect.InvocationTargetException</faultstring><detail /></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for getWeatherByPlaceName method for WeatherForecast - 2010-07-16T12:09:37-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByPlaceName xmlns:n1="http://www.webservicex.net">
+      <n1:PlaceName>1111</n1:PlaceName>
+    </n1:GetWeatherByPlaceName>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByPlaceNameResponse xmlns="http://www.webservicex.net"><GetWeatherByPlaceNameResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByPlaceNameResult></GetWeatherByPlaceNameResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for getWeatherByZipCode method for WeatherForecast - 2010-07-16T12:09:51-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByZipCode xmlns:n1="http://www.webservicex.net">
+      <n1:ZipCode></n1:ZipCode>
+    </n1:GetWeatherByZipCode>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByZipCodeResponse xmlns="http://www.webservicex.net"><GetWeatherByZipCodeResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByZipCodeResult></GetWeatherByZipCodeResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for getWeatherByPlaceName method for WeatherForecast - 2010-07-16T12:10:07-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByPlaceName xmlns:n1="http://www.webservicex.net">
+      <n1:PlaceName>2344</n1:PlaceName>
+    </n1:GetWeatherByPlaceName>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByPlaceNameResponse xmlns="http://www.webservicex.net"><GetWeatherByPlaceNameResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByPlaceNameResult></GetWeatherByPlaceNameResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for getWeatherByPlaceName method for WeatherForecast - 2010-07-16T12:13:03-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByPlaceName xmlns:n1="http://www.webservicex.net">
+      <n1:PlaceName>21212</n1:PlaceName>
+    </n1:GetWeatherByPlaceName>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByPlaceNameResponse xmlns="http://www.webservicex.net"><GetWeatherByPlaceNameResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByPlaceNameResult></GetWeatherByPlaceNameResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for getWeatherByPlaceName method for WeatherForecast - 2010-07-16T12:15:55-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByPlaceName xmlns:n1="http://www.webservicex.net">
+      <n1:PlaceName>111</n1:PlaceName>
+    </n1:GetWeatherByPlaceName>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByPlaceNameResponse xmlns="http://www.webservicex.net"><GetWeatherByPlaceNameResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByPlaceNameResult></GetWeatherByPlaceNameResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for getWeatherByZipCode method for WeatherForecast - 2010-07-16T12:16:24-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:GetWeatherByZipCode xmlns:n1="http://www.webservicex.net">
+      <n1:ZipCode></n1:ZipCode>
+    </n1:GetWeatherByZipCode>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><GetWeatherByZipCodeResponse xmlns="http://www.webservicex.net"><GetWeatherByZipCodeResult><Latitude>0</Latitude><Longitude>0</Longitude><AllocationFactor>0</AllocationFactor></GetWeatherByZipCodeResult></GetWeatherByZipCodeResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for fahrenheitToCelsius method for TempConvert - 2010-07-16T12:17:28-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:FahrenheitToCelsius xmlns:n1="http://tempuri.org/">
+      <n1:Fahrenheit>86</n1:Fahrenheit>
+    </n1:FahrenheitToCelsius>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FahrenheitToCelsiusResponse xmlns="http://tempuri.org/"><FahrenheitToCelsiusResult>30</FahrenheitToCelsiusResult></FahrenheitToCelsiusResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for fahrenheitToCelsius method for TempConvert - 2010-07-16T12:19:04-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:FahrenheitToCelsius xmlns:n1="http://tempuri.org/">
+      <n1:Fahrenheit>11</n1:Fahrenheit>
+    </n1:FahrenheitToCelsius>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FahrenheitToCelsiusResponse xmlns="http://tempuri.org/"><FahrenheitToCelsiusResult>-11.6666666666667</FahrenheitToCelsiusResult></FahrenheitToCelsiusResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for celsiusToFahrenheit method for TempConvert - 2010-07-16T12:19:14-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:CelsiusToFahrenheit xmlns:n1="http://tempuri.org/">
+      <n1:Celsius></n1:Celsius>
+    </n1:CelsiusToFahrenheit>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><CelsiusToFahrenheitResponse xmlns="http://tempuri.org/"><CelsiusToFahrenheitResult>Error</CelsiusToFahrenheitResult></CelsiusToFahrenheitResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for fahrenheitToCelsius method for TempConvert - 2010-07-16T12:19:24-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:FahrenheitToCelsius xmlns:n1="http://tempuri.org/">
+      <n1:Fahrenheit></n1:Fahrenheit>
+    </n1:FahrenheitToCelsius>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FahrenheitToCelsiusResponse xmlns="http://tempuri.org/"><FahrenheitToCelsiusResult>Error</FahrenheitToCelsiusResult></FahrenheitToCelsiusResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for celsiusToFahrenheit method for TempConvert - 2010-07-16T12:19:31-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:CelsiusToFahrenheit xmlns:n1="http://tempuri.org/">
+      <n1:Celsius></n1:Celsius>
+    </n1:CelsiusToFahrenheit>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><CelsiusToFahrenheitResponse xmlns="http://tempuri.org/"><CelsiusToFahrenheitResult>Error</CelsiusToFahrenheitResult></CelsiusToFahrenheitResponse></soap:Body></soap:Envelope>
+
+SOAP request and response for pushOEMBallots method for BallotIngestionService - 2010-07-16T12:20:14-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushOEMBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID>1</n1:requestID>
+      <n1:ome>1</n1:ome>
+    </n1:pushOEMBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:pushOEMBallotsResponse xmlns:ns="http://impl.ballotingestion.services.voting.gov.riskmetrics.com"><ns:return xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" /></ns:pushOEMBallotsResponse></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushOEMBallots method for BallotIngestionService - 2010-07-16T12:20:24-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushOEMBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID></n1:requestID>
+      <n1:ome></n1:ome>
+    </n1:pushOEMBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns:pushOEMBallotsResponse xmlns:ns="http://impl.ballotingestion.services.voting.gov.riskmetrics.com"><ns:return xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" /></ns:pushOEMBallotsResponse></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushBallots method for BallotIngestionService - 2010-07-16T12:20:44-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID>1</n1:requestID>
+      <n1:ballots xmlns:n2="http://types.api.ballotingestion.services.voting.gov.riskmetrics.com/xsd">
+        <n2:address>1</n2:address>
+        <n2:ballotBankCode>1</n2:ballotBankCode>
+        <n2:ballotId>1</n2:ballotId>
+        <n2:ballotInactiveFlag>1</n2:ballotInactiveFlag>
+        <n2:ballotNote>1</n2:ballotNote>
+        <n2:controlNbr>1</n2:controlNbr>
+        <n2:custodianAccountId>1</n2:custodianAccountId>
+        <n2:custodianAccountNumber>1</n2:custodianAccountNumber>
+        <n2:custodianId>1</n2:custodianId>
+        <n2:cutOffDate>1</n2:cutOffDate>
+        <n2:gpdCustodianAccountID>1</n2:gpdCustodianAccountID>
+        <n2:institutionAccountId>1</n2:institutionAccountId>
+        <n2:locationId>1</n2:locationId>
+        <n2:meetingChangedFlag>1</n2:meetingChangedFlag>
+        <n2:meetingID>1</n2:meetingID>
+        <n2:meetingVersionNbr>1</n2:meetingVersionNbr>
+        <n2:paperBallot>1</n2:paperBallot>
+        <n2:poaEffectiveDate>1</n2:poaEffectiveDate>
+        <n2:poaExpirationDate>1</n2:poaExpirationDate>
+        <n2:poaValue>1</n2:poaValue>
+        <n2:providerId>1</n2:providerId>
+        <n2:providerSecurityId>1</n2:providerSecurityId>
+        <n2:providerSecurityTypeCode>1</n2:providerSecurityTypeCode>
+        <n2:recordDate>1</n2:recordDate>
+        <n2:sQLTypeName>1</n2:sQLTypeName>
+        <n2:serialVersionUID>1</n2:serialVersionUID>
+        <n2:settlementLocAcctNbr>1</n2:settlementLocAcctNbr>
+        <n2:settlementLocation>1</n2:settlementLocation>
+        <n2:shareBlocking>1</n2:shareBlocking>
+        <n2:sharesAvailableToVote>1</n2:sharesAvailableToVote>
+        <n2:sharesOnLoan>1</n2:sharesOnLoan>
+        <n2:voteDeadlineDate>1</n2:voteDeadlineDate>
+      </n1:ballots>
+    </n1:pushBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>date string can not be less than 19 charactors</faultstring><detail /></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for pushBallots method for BallotIngestionService - 2010-07-16T12:21:23-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:pushBallots xmlns:n1="http://impl.ballotingestion.services.voting.gov.riskmetrics.com">
+      <n1:requestID></n1:requestID>
+      <n1:ballots xmlns:n2="http://types.api.ballotingestion.services.voting.gov.riskmetrics.com/xsd">
+        <n2:address></n2:address>
+        <n2:ballotBankCode></n2:ballotBankCode>
+        <n2:ballotId></n2:ballotId>
+        <n2:ballotInactiveFlag></n2:ballotInactiveFlag>
+        <n2:ballotNote></n2:ballotNote>
+        <n2:controlNbr></n2:controlNbr>
+        <n2:custodianAccountId></n2:custodianAccountId>
+        <n2:custodianAccountNumber></n2:custodianAccountNumber>
+        <n2:custodianId></n2:custodianId>
+        <n2:cutOffDate></n2:cutOffDate>
+        <n2:gpdCustodianAccountID></n2:gpdCustodianAccountID>
+        <n2:institutionAccountId></n2:institutionAccountId>
+        <n2:locationId></n2:locationId>
+        <n2:meetingChangedFlag></n2:meetingChangedFlag>
+        <n2:meetingID></n2:meetingID>
+        <n2:meetingVersionNbr></n2:meetingVersionNbr>
+        <n2:paperBallot></n2:paperBallot>
+        <n2:poaEffectiveDate></n2:poaEffectiveDate>
+        <n2:poaExpirationDate></n2:poaExpirationDate>
+        <n2:poaValue></n2:poaValue>
+        <n2:providerId></n2:providerId>
+        <n2:providerSecurityId></n2:providerSecurityId>
+        <n2:providerSecurityTypeCode></n2:providerSecurityTypeCode>
+        <n2:recordDate></n2:recordDate>
+        <n2:sQLTypeName></n2:sQLTypeName>
+        <n2:serialVersionUID></n2:serialVersionUID>
+        <n2:settlementLocAcctNbr></n2:settlementLocAcctNbr>
+        <n2:settlementLocation></n2:settlementLocation>
+        <n2:shareBlocking></n2:shareBlocking>
+        <n2:sharesAvailableToVote></n2:sharesAvailableToVote>
+        <n2:sharesOnLoan></n2:sharesOnLoan>
+        <n2:voteDeadlineDate></n2:voteDeadlineDate>
+      </n1:ballots>
+    </n1:pushBallots>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server</faultcode><faultstring>InvocationTargetException : java.lang.reflect.InvocationTargetException</faultstring><detail /></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T12:22:47-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>2</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>3</n1:SubscriptionId>
+      <n1:AssociateTag>4</n1:AssociateTag>
+      <n1:XMLEscaping>5</n1:XMLEscaping>
+      <n1:Validate>6</n1:Validate>
+      <n1:Shared>
+        <n1:Actor>8</n1:Actor>
+        <n1:Artist>9</n1:Artist>
+        <n1:Availability>10</n1:Availability>
+        <n1:AudienceRating>11</n1:AudienceRating>
+        <n1:Author>12</n1:Author>
+        <n1:Brand>13</n1:Brand>
+        <n1:BrowseNode>14
+          <n1:TopItemSet>14
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>14
+              <n1:Author>14</n1:Author>
+              <n1:Artist>14</n1:Artist>
+              <n1:Actor>14</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>15</n1:City>
+        <n1:Composer>16</n1:Composer>
+        <n1:Condition>17</n1:Condition>
+        <n1:Conductor>18</n1:Conductor>
+        <n1:Count>19</n1:Count>
+        <n1:Cuisine>20</n1:Cuisine>
+        <n1:DeliveryMethod>21</n1:DeliveryMethod>
+        <n1:Director>22</n1:Director>
+        <n1:FutureLaunchDate>23</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>24</n1:ISPUPostalCode>
+        <n1:ItemPage>25</n1:ItemPage>
+        <n1:Keywords>26</n1:Keywords>
+        <n1:Manufacturer>27</n1:Manufacturer>
+        <n1:MaximumPrice>28</n1:MaximumPrice>
+        <n1:MerchantId>29</n1:MerchantId>
+        <n1:MinimumPrice>30</n1:MinimumPrice>
+        <n1:MusicLabel>31</n1:MusicLabel>
+        <n1:Neighborhood>32</n1:Neighborhood>
+        <n1:Orchestra>33</n1:Orchestra>
+        <n1:PostalCode>34</n1:PostalCode>
+        <n1:Power>35</n1:Power>
+        <n1:Publisher>36</n1:Publisher>
+        <n1:RelatedItemPage>37</n1:RelatedItemPage>
+        <n1:RelationshipType>38</n1:RelationshipType>
+        <n1:ResponseGroup>39</n1:ResponseGroup>
+        <n1:ReviewSort>40</n1:ReviewSort>
+        <n1:SearchIndex>41</n1:SearchIndex>
+        <n1:Sort>42</n1:Sort>
+        <n1:State>43</n1:State>
+        <n1:TagPage>44</n1:TagPage>
+        <n1:TagsPerPage>45</n1:TagsPerPage>
+        <n1:TagSort>46</n1:TagSort>
+        <n1:TextStream>47</n1:TextStream>
+        <n1:Title>48</n1:Title>
+        <n1:ReleaseDate>49</n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor>52</n1:Actor>
+        <n1:Artist>53</n1:Artist>
+        <n1:Availability>54</n1:Availability>
+        <n1:AudienceRating>55</n1:AudienceRating>
+        <n1:Author>56</n1:Author>
+        <n1:Brand>57</n1:Brand>
+        <n1:BrowseNode>58
+          <n1:TopItemSet>58
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>58
+              <n1:Author>58</n1:Author>
+              <n1:Artist>58</n1:Artist>
+              <n1:Actor>58</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>59</n1:City>
+        <n1:Composer>60</n1:Composer>
+        <n1:Condition>61</n1:Condition>
+        <n1:Conductor>62</n1:Conductor>
+        <n1:Count>63</n1:Count>
+        <n1:Cuisine>64</n1:Cuisine>
+        <n1:DeliveryMethod>65</n1:DeliveryMethod>
+        <n1:Director>66</n1:Director>
+        <n1:FutureLaunchDate>67</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>68</n1:ISPUPostalCode>
+        <n1:ItemPage>69</n1:ItemPage>
+        <n1:Keywords>70</n1:Keywords>
+        <n1:Manufacturer>71</n1:Manufacturer>
+        <n1:MaximumPrice>72</n1:MaximumPrice>
+        <n1:MerchantId>73</n1:MerchantId>
+        <n1:MinimumPrice>74</n1:MinimumPrice>
+        <n1:MusicLabel>75</n1:MusicLabel>
+        <n1:Neighborhood>76</n1:Neighborhood>
+        <n1:Orchestra>77</n1:Orchestra>
+        <n1:PostalCode>78</n1:PostalCode>
+        <n1:Power>79</n1:Power>
+        <n1:Publisher>80</n1:Publisher>
+        <n1:RelatedItemPage>81</n1:RelatedItemPage>
+        <n1:RelationshipType>82</n1:RelationshipType>
+        <n1:ResponseGroup>83</n1:ResponseGroup>
+        <n1:ReviewSort>84</n1:ReviewSort>
+        <n1:SearchIndex>85</n1:SearchIndex>
+        <n1:Sort>86</n1:Sort>
+        <n1:State>87</n1:State>
+        <n1:TagPage>88</n1:TagPage>
+        <n1:TagsPerPage>89</n1:TagsPerPage>
+        <n1:TagSort>90</n1:TagSort>
+        <n1:TextStream>91</n1:TextStream>
+        <n1:Title>92</n1:Title>
+        <n1:ReleaseDate>93</n1:ReleaseDate>
+      </n1:Request>
+      <n1:Request>
+        <n1:Actor>96</n1:Actor>
+        <n1:Artist>97</n1:Artist>
+        <n1:Availability>98</n1:Availability>
+        <n1:AudienceRating>99</n1:AudienceRating>
+        <n1:Author>100</n1:Author>
+        <n1:Brand>101</n1:Brand>
+        <n1:BrowseNode>102
+          <n1:TopItemSet>102
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>102
+              <n1:Author>102</n1:Author>
+              <n1:Artist>102</n1:Artist>
+              <n1:Actor>102</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>103</n1:City>
+        <n1:Composer>104</n1:Composer>
+        <n1:Condition>105</n1:Condition>
+        <n1:Conductor>106</n1:Conductor>
+        <n1:Count>107</n1:Count>
+        <n1:Cuisine>108</n1:Cuisine>
+        <n1:DeliveryMethod>109</n1:DeliveryMethod>
+        <n1:Director>110</n1:Director>
+        <n1:FutureLaunchDate>111</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>112</n1:ISPUPostalCode>
+        <n1:ItemPage>113</n1:ItemPage>
+        <n1:Keywords>114</n1:Keywords>
+        <n1:Manufacturer>115</n1:Manufacturer>
+        <n1:MaximumPrice>116</n1:MaximumPrice>
+        <n1:MerchantId>117</n1:MerchantId>
+        <n1:MinimumPrice>118</n1:MinimumPrice>
+        <n1:MusicLabel>119</n1:MusicLabel>
+        <n1:Neighborhood>120</n1:Neighborhood>
+        <n1:Orchestra>121</n1:Orchestra>
+        <n1:PostalCode>122</n1:PostalCode>
+        <n1:Power>123</n1:Power>
+        <n1:Publisher>124</n1:Publisher>
+        <n1:RelatedItemPage>125</n1:RelatedItemPage>
+        <n1:RelationshipType>126</n1:RelationshipType>
+        <n1:ResponseGroup>127</n1:ResponseGroup>
+        <n1:ReviewSort>128</n1:ReviewSort>
+        <n1:SearchIndex>129</n1:SearchIndex>
+        <n1:Sort>130</n1:Sort>
+        <n1:State>131</n1:State>
+        <n1:TagPage>132</n1:TagPage>
+        <n1:TagsPerPage>133</n1:TagsPerPage>
+        <n1:TagSort>134</n1:TagSort>
+        <n1:TextStream>135</n1:TextStream>
+        <n1:Title>136</n1:Title>
+        <n1:ReleaseDate>137</n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">ea8c7895-d65b-4f32-a0a5-4fffd10f84f6</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for cartAdd method for AWSECommerceService - 2010-07-16T12:23:32-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:CartAdd xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain></n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId></n1:AWSAccessKeyId>
+      <n1:SubscriptionId></n1:SubscriptionId>
+      <n1:AssociateTag></n1:AssociateTag>
+      <n1:Validate></n1:Validate>
+      <n1:XMLEscaping></n1:XMLEscaping>
+      <n1:Shared>
+        <n1:CartId></n1:CartId>
+        <n1:HMAC></n1:HMAC>
+        <n1:MergeCart></n1:MergeCart>
+        <n1:Items>
+          <n1:Item>
+            <n1:ASIN></n1:ASIN>
+            <n1:OfferListingId></n1:OfferListingId>
+            <n1:Quantity></n1:Quantity>
+            <n1:AssociateTag></n1:AssociateTag>
+            <n1:ListItemId></n1:ListItemId>
+            <n1:MetaData>
+              <n1:Key></n1:Key>
+              <n1:Value></n1:Value>
+            </n1:MetaData>
+          </n1:Item>
+        </n1:Items>
+      </n1:Shared>
+      <n1:Request>
+        <n1:CartId></n1:CartId>
+        <n1:HMAC></n1:HMAC>
+        <n1:MergeCart></n1:MergeCart>
+        <n1:Items>
+          <n1:Item>
+            <n1:ASIN></n1:ASIN>
+            <n1:OfferListingId></n1:OfferListingId>
+            <n1:Quantity></n1:Quantity>
+            <n1:AssociateTag></n1:AssociateTag>
+            <n1:ListItemId></n1:ListItemId>
+            <n1:MetaData>
+              <n1:Key></n1:Key>
+              <n1:Value></n1:Value>
+            </n1:MetaData>
+          </n1:Item>
+        </n1:Items>
+      </n1:Request>
+    </n1:CartAdd>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">f521f049-fc18-4ec9-b45f-8933a7d5fa34</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for cartAdd method for AWSECommerceService - 2010-07-16T12:23:51-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:CartAdd xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>2</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>3</n1:SubscriptionId>
+      <n1:AssociateTag>4</n1:AssociateTag>
+      <n1:Validate>5</n1:Validate>
+      <n1:XMLEscaping>6</n1:XMLEscaping>
+      <n1:Shared>
+        <n1:CartId>8</n1:CartId>
+        <n1:HMAC>9</n1:HMAC>
+        <n1:MergeCart>10</n1:MergeCart>
+        <n1:Items>
+          <n1:Item>
+            <n1:ASIN>13</n1:ASIN>
+            <n1:OfferListingId>14</n1:OfferListingId>
+            <n1:Quantity>15</n1:Quantity>
+            <n1:AssociateTag>16</n1:AssociateTag>
+            <n1:ListItemId>17</n1:ListItemId>
+            <n1:MetaData>
+              <n1:Key>19</n1:Key>
+              <n1:Value>20</n1:Value>
+            </n1:MetaData>
+          </n1:Item>
+        </n1:Items>
+        <n1:ResponseGroup>24</n1:ResponseGroup>
+      </n1:Shared>
+      <n1:Request>
+        <n1:CartId>27</n1:CartId>
+        <n1:HMAC>28</n1:HMAC>
+        <n1:MergeCart>29</n1:MergeCart>
+        <n1:Items>
+          <n1:Item>
+            <n1:ASIN>32</n1:ASIN>
+            <n1:OfferListingId>33</n1:OfferListingId>
+            <n1:Quantity>34</n1:Quantity>
+            <n1:AssociateTag>35</n1:AssociateTag>
+            <n1:ListItemId>36</n1:ListItemId>
+            <n1:MetaData>
+              <n1:Key>38</n1:Key>
+              <n1:Value>39</n1:Value>
+            </n1:MetaData>
+            <n1:MetaData>
+              <n1:Key>38</n1:Key>
+              <n1:Value>39</n1:Value>
+            </n1:MetaData>
+          </n1:Item>
+          <n1:Item>
+            <n1:ASIN>32</n1:ASIN>
+            <n1:OfferListingId>33</n1:OfferListingId>
+            <n1:Quantity>34</n1:Quantity>
+            <n1:AssociateTag>35</n1:AssociateTag>
+            <n1:ListItemId>36</n1:ListItemId>
+            <n1:MetaData>
+              <n1:Key>38</n1:Key>
+              <n1:Value>39</n1:Value>
+            </n1:MetaData>
+            <n1:MetaData>
+              <n1:Key>38</n1:Key>
+              <n1:Value>39</n1:Value>
+            </n1:MetaData>
+          </n1:Item>
+        </n1:Items>
+        <n1:ResponseGroup>43</n1:ResponseGroup>
+      </n1:Request>
+    </n1:CartAdd>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">47311680-a1e0-45c7-8308-633ed2f76059</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T13:53:42-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>2</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>3</n1:SubscriptionId>
+      <n1:AssociateTag>4</n1:AssociateTag>
+      <n1:XMLEscaping>5</n1:XMLEscaping>
+      <n1:Validate>6</n1:Validate>
+      <n1:Shared>
+        <n1:Actor>8</n1:Actor>
+        <n1:Artist>9</n1:Artist>
+        <n1:Availability>10</n1:Availability>
+        <n1:AudienceRating>11</n1:AudienceRating>
+        <n1:Author>12</n1:Author>
+        <n1:Brand>13</n1:Brand>
+        <n1:BrowseNode>14
+          <n1:TopItemSet>14
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>14
+              <n1:Author>14</n1:Author>
+              <n1:Artist>14</n1:Artist>
+              <n1:Actor>14</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>15</n1:City>
+        <n1:Composer>16</n1:Composer>
+        <n1:Condition>17</n1:Condition>
+        <n1:Conductor>18</n1:Conductor>
+        <n1:Count>19</n1:Count>
+        <n1:Cuisine>20</n1:Cuisine>
+        <n1:DeliveryMethod>21</n1:DeliveryMethod>
+        <n1:Director>22</n1:Director>
+        <n1:FutureLaunchDate>23</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>24</n1:ISPUPostalCode>
+        <n1:ItemPage>25</n1:ItemPage>
+        <n1:Keywords>26</n1:Keywords>
+        <n1:Manufacturer>27</n1:Manufacturer>
+        <n1:MaximumPrice>28</n1:MaximumPrice>
+        <n1:MerchantId>29</n1:MerchantId>
+        <n1:MinimumPrice>30</n1:MinimumPrice>
+        <n1:MusicLabel>31</n1:MusicLabel>
+        <n1:Neighborhood>32</n1:Neighborhood>
+        <n1:Orchestra>33</n1:Orchestra>
+        <n1:PostalCode>34</n1:PostalCode>
+        <n1:Power>35</n1:Power>
+        <n1:Publisher>36</n1:Publisher>
+        <n1:RelatedItemPage>37</n1:RelatedItemPage>
+        <n1:RelationshipType>38</n1:RelationshipType>
+        <n1:ResponseGroup>39</n1:ResponseGroup>
+        <n1:ReviewSort>40</n1:ReviewSort>
+        <n1:SearchIndex>41</n1:SearchIndex>
+        <n1:Sort>42</n1:Sort>
+        <n1:State>43</n1:State>
+        <n1:TagPage>44</n1:TagPage>
+        <n1:TagsPerPage>45</n1:TagsPerPage>
+        <n1:TagSort>46</n1:TagSort>
+        <n1:TextStream>47</n1:TextStream>
+        <n1:Title>48</n1:Title>
+        <n1:ReleaseDate>49</n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor>52</n1:Actor>
+        <n1:Artist>53</n1:Artist>
+        <n1:Availability>54</n1:Availability>
+        <n1:AudienceRating>55</n1:AudienceRating>
+        <n1:Author>56</n1:Author>
+        <n1:Brand>57</n1:Brand>
+        <n1:BrowseNode>58
+          <n1:TopItemSet>58
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>58
+              <n1:Author>58</n1:Author>
+              <n1:Artist>58</n1:Artist>
+              <n1:Actor>58</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>59</n1:City>
+        <n1:Composer>60</n1:Composer>
+        <n1:Condition>61</n1:Condition>
+        <n1:Conductor>62</n1:Conductor>
+        <n1:Count>63</n1:Count>
+        <n1:Cuisine>64</n1:Cuisine>
+        <n1:DeliveryMethod>65</n1:DeliveryMethod>
+        <n1:Director>66</n1:Director>
+        <n1:FutureLaunchDate>67</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>68</n1:ISPUPostalCode>
+        <n1:ItemPage>69</n1:ItemPage>
+        <n1:Keywords>70</n1:Keywords>
+        <n1:Manufacturer>71</n1:Manufacturer>
+        <n1:MaximumPrice>72</n1:MaximumPrice>
+        <n1:MerchantId>73</n1:MerchantId>
+        <n1:MinimumPrice>74</n1:MinimumPrice>
+        <n1:MusicLabel>75</n1:MusicLabel>
+        <n1:Neighborhood>76</n1:Neighborhood>
+        <n1:Orchestra>77</n1:Orchestra>
+        <n1:PostalCode>78</n1:PostalCode>
+        <n1:Power>79</n1:Power>
+        <n1:Publisher>80</n1:Publisher>
+        <n1:RelatedItemPage>81</n1:RelatedItemPage>
+        <n1:RelationshipType>82</n1:RelationshipType>
+        <n1:ResponseGroup>83</n1:ResponseGroup>
+        <n1:ReviewSort>84</n1:ReviewSort>
+        <n1:SearchIndex>85</n1:SearchIndex>
+        <n1:Sort>86</n1:Sort>
+        <n1:State>87</n1:State>
+        <n1:TagPage>88</n1:TagPage>
+        <n1:TagsPerPage>89</n1:TagsPerPage>
+        <n1:TagSort>90</n1:TagSort>
+        <n1:TextStream>91</n1:TextStream>
+        <n1:Title>92</n1:Title>
+        <n1:ReleaseDate>93</n1:ReleaseDate>
+      </n1:Request>
+      <n1:Request>
+        <n1:Actor>96</n1:Actor>
+        <n1:Artist>97</n1:Artist>
+        <n1:Availability>98</n1:Availability>
+        <n1:AudienceRating>99</n1:AudienceRating>
+        <n1:Author>100</n1:Author>
+        <n1:Brand>101</n1:Brand>
+        <n1:BrowseNode>102
+          <n1:TopItemSet>102
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>102
+              <n1:Author>102</n1:Author>
+              <n1:Artist>102</n1:Artist>
+              <n1:Actor>102</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>103</n1:City>
+        <n1:Composer>104</n1:Composer>
+        <n1:Condition>105</n1:Condition>
+        <n1:Conductor>106</n1:Conductor>
+        <n1:Count>107</n1:Count>
+        <n1:Cuisine>108</n1:Cuisine>
+        <n1:DeliveryMethod>109</n1:DeliveryMethod>
+        <n1:Director>110</n1:Director>
+        <n1:FutureLaunchDate>111</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>112</n1:ISPUPostalCode>
+        <n1:ItemPage>113</n1:ItemPage>
+        <n1:Keywords>114</n1:Keywords>
+        <n1:Manufacturer>115</n1:Manufacturer>
+        <n1:MaximumPrice>116</n1:MaximumPrice>
+        <n1:MerchantId>117</n1:MerchantId>
+        <n1:MinimumPrice>118</n1:MinimumPrice>
+        <n1:MusicLabel>119</n1:MusicLabel>
+        <n1:Neighborhood>120</n1:Neighborhood>
+        <n1:Orchestra>121</n1:Orchestra>
+        <n1:PostalCode>122</n1:PostalCode>
+        <n1:Power>123</n1:Power>
+        <n1:Publisher>124</n1:Publisher>
+        <n1:RelatedItemPage>125</n1:RelatedItemPage>
+        <n1:RelationshipType>126</n1:RelationshipType>
+        <n1:ResponseGroup>127</n1:ResponseGroup>
+        <n1:ReviewSort>128</n1:ReviewSort>
+        <n1:SearchIndex>129</n1:SearchIndex>
+        <n1:Sort>130</n1:Sort>
+        <n1:State>131</n1:State>
+        <n1:TagPage>132</n1:TagPage>
+        <n1:TagsPerPage>133</n1:TagsPerPage>
+        <n1:TagSort>134</n1:TagSort>
+        <n1:TextStream>135</n1:TextStream>
+        <n1:Title>136</n1:Title>
+        <n1:ReleaseDate>137</n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">329e4a02-38fd-4499-aeb5-70acc1c4864e</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
+SOAP request and response for itemSearch method for AWSECommerceService - 2010-07-16T14:10:24-05:00
+
+Request message --- 
+<?xml version="1.0" encoding="utf-8" ?>
+<env:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:env="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <env:Body>
+    <n1:ItemSearch xmlns:n1="http://webservices.amazon.com/AWSECommerceService/2010-06-01">
+      <n1:MarketplaceDomain>1</n1:MarketplaceDomain>
+      <n1:AWSAccessKeyId>2</n1:AWSAccessKeyId>
+      <n1:SubscriptionId>3</n1:SubscriptionId>
+      <n1:AssociateTag>4</n1:AssociateTag>
+      <n1:XMLEscaping>5</n1:XMLEscaping>
+      <n1:Validate>6</n1:Validate>
+      <n1:Shared>
+        <n1:Actor>8</n1:Actor>
+        <n1:Artist>9</n1:Artist>
+        <n1:Availability>10</n1:Availability>
+        <n1:AudienceRating>11</n1:AudienceRating>
+        <n1:Author>12</n1:Author>
+        <n1:Brand>13</n1:Brand>
+        <n1:BrowseNode>14
+          <n1:TopItemSet>14
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>14
+              <n1:Author>14</n1:Author>
+              <n1:Artist>14</n1:Artist>
+              <n1:Actor>14</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>15</n1:City>
+        <n1:Composer>16</n1:Composer>
+        <n1:Condition>17</n1:Condition>
+        <n1:Conductor>18</n1:Conductor>
+        <n1:Count>19</n1:Count>
+        <n1:Cuisine>20</n1:Cuisine>
+        <n1:DeliveryMethod>21</n1:DeliveryMethod>
+        <n1:Director>22</n1:Director>
+        <n1:FutureLaunchDate>23</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>24</n1:ISPUPostalCode>
+        <n1:ItemPage>25</n1:ItemPage>
+        <n1:Keywords>26</n1:Keywords>
+        <n1:Manufacturer>27</n1:Manufacturer>
+        <n1:MaximumPrice>28</n1:MaximumPrice>
+        <n1:MerchantId>29</n1:MerchantId>
+        <n1:MinimumPrice>30</n1:MinimumPrice>
+        <n1:MusicLabel>31</n1:MusicLabel>
+        <n1:Neighborhood>32</n1:Neighborhood>
+        <n1:Orchestra>33</n1:Orchestra>
+        <n1:PostalCode>34</n1:PostalCode>
+        <n1:Power>35</n1:Power>
+        <n1:Publisher>36</n1:Publisher>
+        <n1:RelatedItemPage>37</n1:RelatedItemPage>
+        <n1:RelationshipType>38</n1:RelationshipType>
+        <n1:ResponseGroup>39</n1:ResponseGroup>
+        <n1:ReviewSort>40</n1:ReviewSort>
+        <n1:SearchIndex>41</n1:SearchIndex>
+        <n1:Sort>42</n1:Sort>
+        <n1:State>43</n1:State>
+        <n1:TagPage>44</n1:TagPage>
+        <n1:TagsPerPage>45</n1:TagsPerPage>
+        <n1:TagSort>46</n1:TagSort>
+        <n1:TextStream>47</n1:TextStream>
+        <n1:Title>48</n1:Title>
+        <n1:ReleaseDate>49</n1:ReleaseDate>
+      </n1:Shared>
+      <n1:Request>
+        <n1:Actor>52</n1:Actor>
+        <n1:Artist>53</n1:Artist>
+        <n1:Availability>54</n1:Availability>
+        <n1:AudienceRating>55</n1:AudienceRating>
+        <n1:Author>56</n1:Author>
+        <n1:Brand>57</n1:Brand>
+        <n1:BrowseNode>58
+          <n1:TopItemSet>58
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>58
+              <n1:Author>58</n1:Author>
+              <n1:Artist>58</n1:Artist>
+              <n1:Actor>58</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>59</n1:City>
+        <n1:Composer>60</n1:Composer>
+        <n1:Condition>61</n1:Condition>
+        <n1:Conductor>62</n1:Conductor>
+        <n1:Count>63</n1:Count>
+        <n1:Cuisine>64</n1:Cuisine>
+        <n1:DeliveryMethod>65</n1:DeliveryMethod>
+        <n1:Director>66</n1:Director>
+        <n1:FutureLaunchDate>67</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>68</n1:ISPUPostalCode>
+        <n1:ItemPage>69</n1:ItemPage>
+        <n1:Keywords>70</n1:Keywords>
+        <n1:Manufacturer>71</n1:Manufacturer>
+        <n1:MaximumPrice>72</n1:MaximumPrice>
+        <n1:MerchantId>73</n1:MerchantId>
+        <n1:MinimumPrice>74</n1:MinimumPrice>
+        <n1:MusicLabel>75</n1:MusicLabel>
+        <n1:Neighborhood>76</n1:Neighborhood>
+        <n1:Orchestra>77</n1:Orchestra>
+        <n1:PostalCode>78</n1:PostalCode>
+        <n1:Power>79</n1:Power>
+        <n1:Publisher>80</n1:Publisher>
+        <n1:RelatedItemPage>81</n1:RelatedItemPage>
+        <n1:RelationshipType>82</n1:RelationshipType>
+        <n1:ResponseGroup>83</n1:ResponseGroup>
+        <n1:ReviewSort>84</n1:ReviewSort>
+        <n1:SearchIndex>85</n1:SearchIndex>
+        <n1:Sort>86</n1:Sort>
+        <n1:State>87</n1:State>
+        <n1:TagPage>88</n1:TagPage>
+        <n1:TagsPerPage>89</n1:TagsPerPage>
+        <n1:TagSort>90</n1:TagSort>
+        <n1:TextStream>91</n1:TextStream>
+        <n1:Title>92</n1:Title>
+        <n1:ReleaseDate>93</n1:ReleaseDate>
+      </n1:Request>
+      <n1:Request>
+        <n1:Actor>96</n1:Actor>
+        <n1:Artist>97</n1:Artist>
+        <n1:Availability>98</n1:Availability>
+        <n1:AudienceRating>99</n1:AudienceRating>
+        <n1:Author>100</n1:Author>
+        <n1:Brand>101</n1:Brand>
+        <n1:BrowseNode>102
+          <n1:TopItemSet>102
+            <n1:Type>String</n1:Type>
+            <n1:TopItem>102
+              <n1:Author>102</n1:Author>
+              <n1:Artist>102</n1:Artist>
+              <n1:Actor>102</n1:Actor>
+            </n1:TopItem>
+          </n1:TopItemSet>
+        </n1:BrowseNode>
+        <n1:City>103</n1:City>
+        <n1:Composer>104</n1:Composer>
+        <n1:Condition>105</n1:Condition>
+        <n1:Conductor>106</n1:Conductor>
+        <n1:Count>107</n1:Count>
+        <n1:Cuisine>108</n1:Cuisine>
+        <n1:DeliveryMethod>109</n1:DeliveryMethod>
+        <n1:Director>110</n1:Director>
+        <n1:FutureLaunchDate>111</n1:FutureLaunchDate>
+        <n1:ISPUPostalCode>112</n1:ISPUPostalCode>
+        <n1:ItemPage>113</n1:ItemPage>
+        <n1:Keywords>114</n1:Keywords>
+        <n1:Manufacturer>115</n1:Manufacturer>
+        <n1:MaximumPrice>116</n1:MaximumPrice>
+        <n1:MerchantId>117</n1:MerchantId>
+        <n1:MinimumPrice>118</n1:MinimumPrice>
+        <n1:MusicLabel>119</n1:MusicLabel>
+        <n1:Neighborhood>120</n1:Neighborhood>
+        <n1:Orchestra>121</n1:Orchestra>
+        <n1:PostalCode>122</n1:PostalCode>
+        <n1:Power>123</n1:Power>
+        <n1:Publisher>124</n1:Publisher>
+        <n1:RelatedItemPage>125</n1:RelatedItemPage>
+        <n1:RelationshipType>126</n1:RelationshipType>
+        <n1:ResponseGroup>127</n1:ResponseGroup>
+        <n1:ReviewSort>128</n1:ReviewSort>
+        <n1:SearchIndex>129</n1:SearchIndex>
+        <n1:Sort>130</n1:Sort>
+        <n1:State>131</n1:State>
+        <n1:TagPage>132</n1:TagPage>
+        <n1:TagsPerPage>133</n1:TagsPerPage>
+        <n1:TagSort>134</n1:TagSort>
+        <n1:TextStream>135</n1:TextStream>
+        <n1:Title>136</n1:Title>
+        <n1:ReleaseDate>137</n1:ReleaseDate>
+      </n1:Request>
+    </n1:ItemSearch>
+  </env:Body>
+</env:Envelope>
+Response message --- 
+<?xml version="1.0"?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><env:Body><env:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">1f474f9e-0f6b-431b-b0a7-7ecfbb917771</aws:RequestId></detail></env:Fault></env:Body></env:Envelope>
+
